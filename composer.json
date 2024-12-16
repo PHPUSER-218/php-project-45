@@ -1,10 +1,15 @@
 {
     "name": "hexlet/code",
+    "description": "This is a simple PHP package for brain games",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
     },
+    "bin": [
+        "bin/brain-games"
+    ],
     "authors": [
         {
             "name": "Victoria Karpovich",
