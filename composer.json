@@ -16,5 +16,7 @@
             "email": "akvio2019@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    }
 }
