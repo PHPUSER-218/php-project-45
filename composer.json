@@ -1,28 +1,33 @@
 {
-    "name": "hexlet/code",
-    "description": "This is a simple PHP package for brain games",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        },
-        "files": [
-      "src/Cli.php"
-        ]
+  "name": "hexlet/code",
+  "description": "This is a simple PHP package for brain games",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hexlet\\Code\\": "src/"
     },
-    "bin": [
-        "bin/brain-games"
+    "files": [
+      "src/Cli.php",
+      "src/Even.php"
     ],
-    "authors": [
-        {
-            "name": "Victoria Karpovich",
-            "email": "akvio2019@gmail.com"
-        }
-    ],
-    "require": {
-        "wp-cli/php-cli-tools": "^0.12.1"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3.11"
+    "classmap": [],
+    "psr-0": {},
+    "exclude-from-classmap": []
+  },
+  "bin": [
+    "bin/brain-games",
+    "bin/brain-even"
+  ],
+  "authors": [
+    {
+      "name": "Victoria Karpovich",
+      "email": "akvio2019@gmail.com"
     }
+  ],
+  "require": {
+    "wp-cli/php-cli-tools": "^0.12.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.11"
+  }
 }

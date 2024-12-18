@@ -1,10 +1,10 @@
 #!/usr/bin/env php
 <?php
-
 require_once __DIR__ . '/../vendor/autoload.php';
 
-echo "Welcome to the Brain Games!\n";
-
+use function Hexlet\Even\brainEven;
 use function Hexlet\Cli\greet;
 
+echo "Welcome to the Brain Games!\n";
 greet();
+brainEven();
