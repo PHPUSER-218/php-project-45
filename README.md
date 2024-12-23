@@ -5,4 +5,4 @@
 ## asciinema even
 [![asciicast](https://asciinema.org/a/MzBUv3vtb9Z5PwwSTZvqQqJTB.svg)](https://asciinema.org/a/MzBUv3vtb9Z5PwwSTZvqQqJTB)
 ## asciinema calc
-[![asciicast](https://asciinema.org/a/MzBUv3vtb9Z5PwwSTZvqQqJTB.svg)](https://asciinema.org/a/yoFAeweyyuo1L1NlhvF8Pc6DO)
+[![asciicast](https://asciinema.org/a/yoFAeweyyuo1L1NlhvF8Pc6DO.svg)](https://asciinema.org/a/yoFAeweyyuo1L1NlhvF8Pc6DO)
