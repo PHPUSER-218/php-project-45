@@ -3,14 +3,13 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Even\brainEven;
-use function Hexlet\Engine\engine;
+use function Hexlet\Calc\brainCalc;
 use function Hexlet\Cli\greet;
-
+use function Hexlet\Engine\engine;
 
 echo "Welcome to the Brain Games!\n";
 greet();
-$rule = 'Answer "yes" if the number is even, otherwise answer "no".';
+$rule ='What is the result of the expression?';
 engine($rule, function () {
-    return brainEven();
+    return brainCalc();
 });

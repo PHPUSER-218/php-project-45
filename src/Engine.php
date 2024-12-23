@@ -1,24 +1,21 @@
 <?php
-namespace Hexlet\Even;
+namespace Hexlet\Engine;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Cli\greet;
 use function cli\line;
 use function cli\prompt;
 
-function brainEven()
+function engine(string $rule, callable $getQuestionAndAnswer)
 {
     global $name;
-    line('Answer "yes" if the number is even, otherwise answer "no".');
+    line($rule);
 
     $rounds = 3;
 
     for ($i = 0; $i < $rounds; $i++) {
-        $number = rand(1, 1000);
-        line("Question: %d", $number);
-
-        $correctAnswer = $number % 2 === 0 ? 'yes' : 'no';
+        [$question, $correctAnswer] = $getQuestionAndAnswer();
+        line("Question: %s", $question);
         $userAnswer = prompt('Your answer');
 
         if ($userAnswer !== $correctAnswer) {
