@@ -3,6 +3,7 @@
 namespace Hexlet\Gcd;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
+
 function gcd(int $a, int $b): int
 {
     while ($b !== 0) {

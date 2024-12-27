@@ -3,8 +3,7 @@ namespace Hexlet\Calc;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-function brainCalc() : array
-
+function brainCalc(): array
 {
     $signs = ['+','-','*'];
     $number1 = rand(1, 100);
@@ -13,15 +12,15 @@ function brainCalc() : array
     $example = $number1 . ' ' . $randomSign . ' ' . $number2;
 
     switch ($randomSign) {
-        case '+':
-            $correctAnswer = $number1 + $number2;
-            break;
-        case '-':
-            $correctAnswer = $number1 - $number2;
-            break;
-        case '*':
-            $correctAnswer = $number1 * $number2;
-            break;
+    case '+':
+        $correctAnswer = $number1 + $number2;
+        break;
+    case '-':
+        $correctAnswer = $number1 - $number2;
+        break;
+    case '*':
+        $correctAnswer = $number1 * $number2;
+        break;
     }
 
     $question = $example;
