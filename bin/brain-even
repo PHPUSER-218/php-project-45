@@ -7,10 +7,11 @@ use function Hexlet\Even\brainEven;
 use function Hexlet\Engine\engine;
 use function Hexlet\Cli\greet;
 
+function main(): void
+{
+    greet();
+    $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
+    engine($rule, 'Hexlet\Even\brainEven');
+}
 
-echo "Welcome to the Brain Games!\n";
-greet();
-$rule = 'Answer "yes" if the number is even, otherwise answer "no".';
-engine($rule, function () {
-    return brainEven();
-});
+main();

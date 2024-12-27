@@ -1,12 +1,11 @@
 <?php
-namespace Hexlet\Engine;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+namespace Hexlet\Engine;
 
 use function cli\line;
 use function cli\prompt;
 
-function engine(string $rule, callable $getQuestionAndAnswer)
+function engine(string $rule, callable $getQuestionAndAnswer): void
 {
     global $name;
     line($rule);

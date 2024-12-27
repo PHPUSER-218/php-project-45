@@ -4,12 +4,14 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use function Hexlet\Gcd\brainGcd;
-use function Hexlet\Cli\greet;
 use function Hexlet\Engine\engine;
+use function Hexlet\Cli\greet;
 
-echo "Welcome to the Brain Games!\n";
-greet();
-$rule = "Find the greatest common divisor of given numbers.";
-engine($rule, function () {
-    return brainGcd();
-});
+function main(): void
+{
+    greet();
+    $rule = 'Find the greatest common divisor of given numbers.';
+    engine($rule, 'Hexlet\Gcd\brainGcd');
+}
+
+main();

@@ -4,12 +4,14 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use function Hexlet\Calc\brainCalc;
-use function Hexlet\Cli\greet;
 use function Hexlet\Engine\engine;
+use function Hexlet\Cli\greet;
 
-echo "Welcome to the Brain Games!\n";
-greet();
-$rule ='What is the result of the expression?';
-engine($rule, function () {
-    return brainCalc();
-});
+function main(): void
+{
+    greet();
+    $rule = 'What is the result of the expression?';
+    engine($rule, 'Hexlet\Calc\brainCalc');
+}
+
+main();
