@@ -1,11 +1,7 @@
 <?php
 namespace Hexlet\Calc;
 
-use function cli\line;
-use function Hexlet\Engine\engine;
-
 require_once __DIR__ . '/../../vendor/autoload.php';
-require_once __DIR__ . '/../Engine.php';
 
 function brainCalc() : array
 
