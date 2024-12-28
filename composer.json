@@ -11,7 +11,8 @@
       "src/Engine.php",
       "src/Games/Even.php",
       "src/Games/Calc.php",
-      "src/Games/Progression.php"
+      "src/Games/Progression.php",
+      "src/Games/Prime.php"
     ],
     "classmap": [],
     "psr-0": {},
@@ -22,7 +23,8 @@
     "bin/brain-even",
     "bin/brain-calc",
     "bin/brain-gcd",
-    "bin/brain-progression"
+    "bin/brain-progression",
+    "bin/brain-prime"
   ],
   "authors": [
     {

@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use function Hexlet\Prime\brainPrime;
+use function Hexlet\Engine\engine;
+use function Hexlet\Cli\greet;
+
+function main(): void
+{
+    greet();
+    $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+    engine($rule, 'Hexlet\Prime\brainPrime');
+}
+
+main();
