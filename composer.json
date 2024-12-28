@@ -11,7 +11,7 @@
       "src/Engine.php",
       "src/Games/Even.php",
       "src/Games/Calc.php",
-      "src/Games/Gcd.php"
+      "src/Games/Progression.php"
     ],
     "classmap": [],
     "psr-0": {},
@@ -21,7 +21,8 @@
     "bin/brain-games",
     "bin/brain-even",
     "bin/brain-calc",
-    "bin/brain-gcd"
+    "bin/brain-gcd",
+    "bin/brain-progression"
   ],
   "authors": [
     {
