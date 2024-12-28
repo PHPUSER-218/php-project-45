@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/bsknA6gn3XnXrV2zian7OWVNr.svg)](https://asciinema.org/a/bsknA6gn3XnXrV2zian7OWVNr)
 ## asciinema progression
 [![asciicast](https://asciinema.org/a/WC03e4A7EKg25U8KabC2Eu16T.svg)](https://asciinema.org/a/WC03e4A7EKg25U8KabC2Eu16T)
+## asciinema prime
+[![asciicast](https://asciinema.org/a/2mD1E7qXmf46qAFHro3w61Omu.svg)](https://asciinema.org/a/2mD1E7qXmf46qAFHro3w61Omu)
