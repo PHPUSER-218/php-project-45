@@ -5,9 +5,11 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use function Hexlet\Progression\brainProgression;
 use function Hexlet\Engine\engine;
+use function Hexlet\Cli\greet;
 
 function main(): void
 {
+    greet();
     $rule = 'What number is missing in the progression?';
     engine($rule, 'Hexlet\Progression\brainProgression');
 }

@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/yoFAeweyyuo1L1NlhvF8Pc6DO.svg)](https://asciinema.org/a/yoFAeweyyuo1L1NlhvF8Pc6DO)
 ## asciinema gcd
 [![asciicast](https://asciinema.org/a/bsknA6gn3XnXrV2zian7OWVNr.svg)](https://asciinema.org/a/bsknA6gn3XnXrV2zian7OWVNr)
+## asciinema progression
+[![asciicast](https://asciinema.org/a/WC03e4A7EKg25U8KabC2Eu16T.svg)](https://asciinema.org/a/WC03e4A7EKg25U8KabC2Eu16T)
