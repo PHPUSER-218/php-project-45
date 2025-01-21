@@ -3,15 +3,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Gcd\brainGcd;
-use function Hexlet\Engine\engine;
-use function Hexlet\Cli\greet;
-
+use function Hexlet\Engine\runGame;
 function main(): void
 {
-    greet();
     $rule = 'Find the greatest common divisor of given numbers.';
-    engine($rule, 'Hexlet\Gcd\brainGcd');
+    runGame($rule, 'Hexlet\Gcd\brainGcd');
 }
 
 main();

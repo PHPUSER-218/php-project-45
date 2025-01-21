@@ -3,15 +3,12 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Calc\brainCalc;
-use function Hexlet\Engine\engine;
-use function Hexlet\Cli\greet;
+use function Hexlet\Engine\runGame;
 
 function main(): void
 {
-    greet();
     $rule = 'What is the result of the expression?';
-    engine($rule, 'Hexlet\Calc\brainCalc');
+    runGame($rule, 'Hexlet\Calc\brainCalc');
 }
 
 main();

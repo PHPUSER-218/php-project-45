@@ -7,9 +7,22 @@ use function cli\prompt;
 
 function greet()
 {
-    echo "Welcome to the Brain Games!\n";
-    global $name;
-    $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
+    displayWelcomeMessage();
+    $name = askForName();
+    greetUser($name);
     return $name;
+}
+function displayWelcomeMessage()
+{
+    echo "Welcome to the Brain Games!\n";
+}
+
+function askForName()
+{
+    return prompt('May I have your name?');
+}
+
+function greetUser($name)
+{
+    line("Hello, %s!", $name);
 }

@@ -3,15 +3,12 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Even\brainEven;
-use function Hexlet\Engine\engine;
-use function Hexlet\Cli\greet;
+use function Hexlet\Engine\runGame;
 
 function main(): void
 {
-    greet();
     $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
-    engine($rule, 'Hexlet\Even\brainEven');
+    runGame($rule, 'Hexlet\Even\brainEven');
 }
 
 main();
