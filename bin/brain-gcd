@@ -1,13 +1,8 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/bootstrap.php';
 
-use function Hexlet\Engine\runGame;
-function main(): void
-{
-    $rule = 'Find the greatest common divisor of given numbers.';
-    runGame($rule, 'Hexlet\Gcd\brainGcd');
-}
+use function Hexlet\Gcd\main;
 
 main();

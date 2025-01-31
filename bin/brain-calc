@@ -1,14 +1,8 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/bootstrap.php';
 
-use function Hexlet\Engine\runGame;
-
-function main(): void
-{
-    $rule = 'What is the result of the expression?';
-    runGame($rule, 'Hexlet\Calc\brainCalc');
-}
+use function Hexlet\Calc\main;
 
 main();

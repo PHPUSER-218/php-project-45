@@ -1,14 +1,8 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/bootstrap.php';
 
-use function Hexlet\Engine\runGame;
-
-function main(): void
-{
-    $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
-    runGame($rule, 'Hexlet\Even\brainEven');
-}
+use function Hexlet\Even\main;
 
 main();

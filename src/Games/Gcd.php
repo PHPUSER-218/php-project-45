@@ -2,6 +2,8 @@
 
 namespace Hexlet\Gcd;
 
+use function Hexlet\Engine\runGame;
+
 function gcd(int $a, int $b): int
 {
     while ($b !== 0) {
@@ -19,4 +21,10 @@ function brainGcd(): array
     $correctAnswer = (string) gcd($num1, $num2);
 
     return [$question, $correctAnswer];
+}
+
+function main(): void
+{
+    $rule = 'Find the greatest common divisor of given numbers.';
+    runGame($rule, 'Hexlet\Gcd\brainGcd');
 }

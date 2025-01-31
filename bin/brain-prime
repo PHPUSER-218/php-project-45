@@ -1,14 +1,8 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/bootstrap.php';
 
-use function Hexlet\Engine\runGame;
-
-function main(): void
-{
-    $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-    runGame($rule, 'Hexlet\Prime\brainPrime');
-}
+use function Hexlet\Prime\main;
 
 main();

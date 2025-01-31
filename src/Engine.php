@@ -9,10 +9,10 @@ const ROUNDS_COUNT = 3;
 
 function runGame(string $rule, callable $getQuestionAndAnswer): void
 {
-line($rule);
-
 $name = prompt('May I have your name?');
 line("Hello, %s!", $name);
+
+    line($rule);
 
 for ($i = 0; $i < ROUNDS_COUNT; $i++) {
 [$question, $correctAnswer] = $getQuestionAndAnswer();

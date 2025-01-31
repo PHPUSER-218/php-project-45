@@ -1,14 +1,8 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/bootstrap.php';
 
-use function Hexlet\Engine\runGame;
-
-function main(): void
-{
-    $rule = 'What number is missing in the progression?';
-    runGame($rule, 'Hexlet\Progression\brainProgression');
-}
+use function Hexlet\Progression\main;
 
 main();
