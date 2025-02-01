@@ -18,7 +18,7 @@ function brainGcd(): array
     $num2 = rand(1, 100);
 
     $question = "$num1 $num2";
-    $correctAnswer = (string) gcd($num1, $num2);
+    $correctAnswer = (string)gcd($num1, $num2);
 
     return [$question, $correctAnswer];
 }

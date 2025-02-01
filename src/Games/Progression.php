@@ -28,7 +28,7 @@ function brainProgression(): array
     $hiddenIndex = rand(0, $length - 1);
 
     $progression = generateProgression($length, $start, $step);
-    $correctAnswer = (string) $progression[$hiddenIndex];
+    $correctAnswer = (string)$progression[$hiddenIndex];
 
     $progression[$hiddenIndex] = '..';
     $question = implode(' ', $progression);
