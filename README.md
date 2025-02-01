@@ -1,14 +1,14 @@
 # Brain Games
-
-# Description
-## Brain Games is a collection of console games based on mathematical tasks. 
-## The goal is to answer three questions correctly in a row.
-# Requirements
-## PHP 8.1 or higher
-## Composer
-# Usage
-## To start a game, use the following command:
-### php bin/brain-even
+#
+## Description
+### Brain Games is a collection of console games based on mathematical tasks. 
+### The goal is to answer three questions correctly in a row.
+## Requirements
+### PHP 8.1 or higher
+### Composer
+## Usage
+### To start a game, use the following command:
+#### php bin/brain-even
 ## Hexlet tests and linter status:
 [![Actions Status](https://github.com/PHPUSER-218/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/PHPUSER-218/php-project-45/actions)
 ##  CodeClimate Maintainability Badge
