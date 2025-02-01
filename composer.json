@@ -3,9 +3,6 @@
   "description": "This is a simple PHP package for brain games",
   "license": "MIT",
   "autoload": {
-    "psr-4": {
-      "Hexlet\\Code\\": "src/"
-    },
     "files": [
       "src/Cli.php",
       "src/Engine.php",
